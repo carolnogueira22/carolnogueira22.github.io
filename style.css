@@ -21,7 +21,7 @@ body {
 
 h1 {
   font-size: 12px; /* Smaller size for the "Carol Nogueira Marketing Consulting" text */
-  font-weight: 800;
+  font-weight: 700;
   letter-spacing: 0.5px;
   margin-bottom: 20px;
   font-family: 'Roboto', sans-serif; /* Non-serif font */
@@ -100,7 +100,7 @@ a:hover {
   }
 
   h1 {
-    font-size: 36px !important; /* Doubled font size from 18px */
+    font-size: 40px !important; /* Doubled font size from 18px */
     top: 10px; /* Keep it a bit closer to the top */
   }
 
