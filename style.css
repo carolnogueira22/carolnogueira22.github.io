@@ -100,7 +100,7 @@ a:hover {
   }
 
   h1 {
-    font-size: 40px !important; /* Doubled font size from 18px */
+    font-size: 40px; /* Doubled font size from 18px */
     top: 10px; /* Keep it a bit closer to the top */
   }
 
