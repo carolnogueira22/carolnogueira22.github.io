@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
 
+/* Default styles for all screen sizes */
 html, body {
-  height: 100%; /* Ensure full height for both elements */
+  height: 100%;
   margin: 0;
   padding: 0;
 }
@@ -61,6 +62,32 @@ a:hover {
   margin-bottom: 20px;
   text-align: center;
   width: 100%;
+}
+
+/* Desktop and larger screens styles */
+@media (min-width: 769px) {
+  html, body {
+    height: 100%; /* Ensure full height on desktop screens */
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 18px; /* Adjust font size for larger screens */
+  }
+
+  h2 {
+    font-size: 80px; /* Adjust font size for larger screens */
+  }
+
+  p {
+    font-size: 20px; /* Adjust font size for larger screens */
+  }
+
+  .bottom-text {
+    bottom: 20px; /* Links positioned towards the bottom */
+    font-size: 18px; /* Adjust font size for larger screens */
+  }
 }
 
 /* Mobile-specific styles */
