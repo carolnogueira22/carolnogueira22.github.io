@@ -21,7 +21,7 @@ h1 {
   letter-spacing: 0.5px;
   margin-bottom: 20px;
   font-family: 'Roboto', sans-serif; /* Non-serif font */
-  padding-top: 20px; /* Adds space from the top of the screen */
+  padding-top: 10px; /* Adds space from the top of the screen */
   position: absolute; /* Position it at the top */
   top: 20px; /* 20px from the top of the page */
 }
