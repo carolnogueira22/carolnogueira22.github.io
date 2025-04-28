@@ -1,4 +1,6 @@
-/* Reset and basic styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
 body {
   background-color: #f7f0e8; /* soft beige background */
   margin: 0;
@@ -58,7 +60,3 @@ a:hover {
     font-size: 14px;
   }
 }
-
-/* Import Playfair Display font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
