@@ -62,6 +62,12 @@ a:hover {
 
 /* Responsive adjustments (Mobile specific) */
 @media (max-width: 768px) {
+  /* This will help us test if the media query is working */
+  body {
+    background-color: red; /* Temporarily change background to red */
+  }
+}
+
   h1 {
     font-size: 48px; /* Doubled from 24px */
     top: 10px; /* Keep it a bit closer to the top */
