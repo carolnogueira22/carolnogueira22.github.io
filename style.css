@@ -60,23 +60,26 @@ a:hover {
   width: 100%;
 }
 
-/* Responsive adjustments */
+/* Responsive adjustments (Mobile specific) */
 @media (max-width: 600px) {
   h1 {
-    font-size: 24px; /* Increase size of "Carol Nogueira Marketing Consulting" text */
+    font-size: 48px; /* Doubled from 24px */
     top: 10px; /* Keep it a bit closer to the top */
   }
 
   h2 {
-    font-size: 48px; /* Adjust size for smaller screen */
+    font-size: 120px; /* Doubled from 60px */
+    text-align: center; /* Ensure it's centered */
+    margin-top: 20px; /* Adds space above the text */
+    margin-bottom: 20px; /* Adds space below the text */
   }
 
   p {
-    font-size: 18px; /* Adjust text size for readability on smaller screens */
+    font-size: 32px; /* Doubled from 16px */
   }
 
   .bottom-text {
     bottom: 10px; /* Ensure links are still at the bottom but not too far */
-    font-size: 14px; /* Adjust the font size for links */
+    font-size: 28px; /* Doubled from 14px */
   }
 }
