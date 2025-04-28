@@ -17,7 +17,7 @@ body {
 
 h1 {
   font-size: 12px; /* Smaller size for the "Carol Nogueira Marketing Consulting" text */
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.5px;
   margin-bottom: 20px;
   font-family: 'Roboto', sans-serif; /* Non-serif font */
@@ -50,6 +50,13 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* Links at the bottom */
+.bottom-text {
+  position: absolute;
+  bottom: 20px; /* Position links 20px from the bottom of the screen */
+  margin-bottom: 20px;
+  text-align: center;
 
 /* Responsive adjustments */
 @media (max-width: 600px) {
