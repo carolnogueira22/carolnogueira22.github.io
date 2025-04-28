@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   justify-content: center; /* Center content vertically for "Under construction" */
   align-items: center;
-  height: 100vh; 
+  height: 100vh;
   text-align: center;
 }
 
@@ -61,7 +61,7 @@ a:hover {
 }
 
 /* Responsive adjustments (Mobile specific) */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 48px; /* Doubled from 24px */
     top: 10px; /* Keep it a bit closer to the top */
