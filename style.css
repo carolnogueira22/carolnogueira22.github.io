@@ -13,7 +13,6 @@ body {
   align-items: center;
   height: 100vh;
   text-align: center;
-  overflow: hidden; /* Prevent scrolling */
 }
 
 h1 {
@@ -62,7 +61,14 @@ a:hover {
 }
 
 /* Responsive adjustments (Mobile specific) */
-@media (max-width: 768px) {
+@media (max-width: 768px) 
+{
+  html, body {
+    overflow: hidden; /* Prevent scrolling only on mobile */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
   h1 {
     font-size: 36px; /* Doubled from 24px */
     top: 10px; /* Keep it a bit closer to the top */
