@@ -71,7 +71,6 @@ a:hover {
   h2 {
     font-size: 100px; /* Doubled from 60px */
     text-align: center; /* Ensure it's centered */
-    margin-top: 10px; /* Adds space above the text */
     margin-bottom: 20px; /* Adds space below the text */
   }
 
