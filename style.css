@@ -16,16 +16,16 @@ body {
 }
 
 h1 {
-  font-size: 16px; /* Smaller size for the "Carol Nogueira Marketing Consulting" text */
-  font-weight: 400;
+  font-size: 10px; /* Smaller size for the "Carol Nogueira Marketing Consulting" text */
+  font-weight: 300;
   letter-spacing: 0.5px;
   margin-bottom: 20px;
   font-family: 'Roboto', sans-serif; /* Non-serif font */
 }
 
 h2 {
-  font-size: 72px; /* Larger size for "Under construction" */
-  font-weight: 700;
+  font-size: 60px; /* Larger size for "Under construction" */
+  font-weight: 500;
   font-family: 'Cardo', serif; /* Cardo font for the "Under construction" */
   margin-top: 0;
   margin-bottom: 40px;
