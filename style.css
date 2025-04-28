@@ -1,4 +1,6 @@
-/* Reset and basic styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
 body {
   background-color: #f7f0e8; /* soft beige background */
   margin: 0;
@@ -7,23 +9,26 @@ body {
   color: #5c4033; /* deep brown text color */
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Center content vertically */
+  justify-content: center; /* Center content vertically for "Under construction" */
   align-items: center;
   height: 100vh;
   text-align: center;
 }
 
 h1 {
-  font-size: 32px; /* Smaller size for the "Carol Nogueira Marketing Consulting" text */
-  font-weight: 400;
+  font-size: 12px; /* Smaller size for the "Carol Nogueira Marketing Consulting" text */
+  font-weight: 300;
   letter-spacing: 0.5px;
   margin-bottom: 20px;
   font-family: 'Roboto', sans-serif; /* Non-serif font */
+  padding-top: 20px; /* Adds space from the top of the screen */
+  position: absolute; /* Position it at the top */
+  top: 20px; /* 20px from the top of the page */
 }
 
 h2 {
-  font-size: 72px; /* Larger size for "Under construction" */
-  font-weight: 700;
+  font-size: 60px; /* Larger size for "Under construction" */
+  font-weight: 500;
   font-family: 'Cardo', serif; /* Cardo font for the "Under construction" */
   margin-top: 0;
   margin-bottom: 40px;
@@ -49,7 +54,7 @@ a:hover {
 /* Responsive adjustments */
 @media (max-width: 600px) {
   h1 {
-    font-size: 24px;
+    font-size: 12px;
   }
   h2 {
     font-size: 48px;
@@ -58,7 +63,3 @@ a:hover {
     font-size: 14px;
   }
 }
-
-/* Import Playfair Display font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
