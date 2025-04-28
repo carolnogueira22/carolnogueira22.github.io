@@ -7,26 +7,24 @@ body {
   color: #5c4033; /* deep brown text color */
   display: flex;
   flex-direction: column;
-  justify-content: flex-start; /* Align to the top */
+  justify-content: center; /* Center content vertically */
   align-items: center;
   height: 100vh;
   text-align: center;
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 32px; /* Smaller size for the "Carol Nogueira Marketing Consulting" text */
   font-weight: 400;
   letter-spacing: 0.5px;
   margin-bottom: 20px;
   font-family: 'Roboto', sans-serif; /* Non-serif font */
-  margin-top: 20px; /* Adds some space from the top */
 }
 
 h2 {
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  font-size: 72px; /* Larger size for "Under construction" */
+  font-weight: 700;
+  font-family: 'Cardo', serif; /* Cardo font for the "Under construction" */
   margin-top: 0;
   margin-bottom: 40px;
 }
@@ -51,10 +49,10 @@ a:hover {
 /* Responsive adjustments */
 @media (max-width: 600px) {
   h1 {
-    font-size: 36px;
+    font-size: 24px;
   }
   h2 {
-    font-size: 14px;
+    font-size: 48px;
   }
   p {
     font-size: 14px;
