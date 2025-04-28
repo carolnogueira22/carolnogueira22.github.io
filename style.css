@@ -11,13 +11,13 @@ body {
   flex-direction: column;
   justify-content: center; /* Center content vertically for "Under construction" */
   align-items: center;
-  height: 100vh;
+  height: 100vh; 
   text-align: center;
 }
 
 h1 {
   font-size: 12px; /* Smaller size for the "Carol Nogueira Marketing Consulting" text */
-  font-weight: 300;
+  font-weight: 800;
   letter-spacing: 0.5px;
   margin-bottom: 20px;
   font-family: 'Roboto', sans-serif; /* Non-serif font */
@@ -51,15 +51,35 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Responsive adjustments */
+/* Links at the bottom */
+.bottom-text {
+  position: absolute;
+  bottom: 20px; /* Position links 20px from the bottom of the screen */
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Responsive adjustments (Mobile specific) */
 @media (max-width: 600px) {
   h1 {
-    font-size: 12px;
+    font-size: 48px; /* Doubled from 24px */
+    top: 10px; /* Keep it a bit closer to the top */
   }
+
   h2 {
-    font-size: 48px;
+    font-size: 120px; /* Doubled from 60px */
+    text-align: center; /* Ensure it's centered */
+    margin-top: 20px; /* Adds space above the text */
+    margin-bottom: 20px; /* Adds space below the text */
   }
+
   p {
-    font-size: 14px;
+    font-size: 32px; /* Doubled from 16px */
+  }
+
+  .bottom-text {
+    bottom: 10px; /* Ensure links are still at the bottom but not too far */
+    font-size: 28px; /* Doubled from 14px */
   }
 }
