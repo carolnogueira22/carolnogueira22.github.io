@@ -62,21 +62,15 @@ a:hover {
 
 /* Responsive adjustments (Mobile specific) */
 @media (max-width: 768px) {
-  /* This will help us test if the media query is working */
-  body {
-    background-color: red; /* Temporarily change background to red */
-  }
-}
-
   h1 {
-    font-size: 48px; /* Doubled from 24px */
+    font-size: 36px; /* Doubled from 24px */
     top: 10px; /* Keep it a bit closer to the top */
   }
 
   h2 {
-    font-size: 120px; /* Doubled from 60px */
+    font-size: 100px; /* Doubled from 60px */
     text-align: center; /* Ensure it's centered */
-    margin-top: 20px; /* Adds space above the text */
+    margin-top: 10px; /* Adds space above the text */
     margin-bottom: 20px; /* Adds space below the text */
   }
 
